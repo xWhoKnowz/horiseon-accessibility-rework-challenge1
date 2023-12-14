@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Below is the code that controls font styling and positioning for the nav elements; changed div to nav to reflect the update to the html */
+/** Below is the code that controls font styling and positioning for the nav elements; changed div to nav to reflect the update to the html */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +31,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Below is the code that keeps the nav list elements inline and unbulleted; consolidated the list style tpye into this section bc it did not need to be on its own  */
+/** Below is the code that keeps the nav list elements inline and unbulleted; consolidated the list style tpye into this section bc it did not need to be on its own  */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -46,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-/* This section contains our hero image and corresponding positioning properties */
+/** This section contains our hero image and corresponding positioning properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,15 +55,10 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
+/** consolidated the 2 classes below because they share the same styling values */
+.float-left, .float-right {
     float: left;
     margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -82,56 +77,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/** Consolidated css coding for the 3 below classes since they share the same styling values */
+.benefit-lead, .benefit-brand,.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/** Consolidated css coding for the 3 below classes since they share the same styling values */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -139,34 +104,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
     max-height: 200px;
 }
 
