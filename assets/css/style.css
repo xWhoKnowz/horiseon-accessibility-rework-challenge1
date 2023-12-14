@@ -46,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* This section contains our hero image and corresponding positioning properties */
 .hero {
     height: 800px;
     width: 100%;
