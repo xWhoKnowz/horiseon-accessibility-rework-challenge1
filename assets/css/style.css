@@ -8,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* below are the header styling properties */
+/* below are class selectors for the header styling properties */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -111,7 +111,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* below are stlying properties for the search-engine-optimization, online-reputation-management, and */
+/* below are stlying properties for the search-engine-optimization, online-reputation-management, and social-media-marketing classes*/
+/* there are also some styling properties for the img and h2 elements in the html */
 /** Consolidated css coding for the 3 below classes since they share the same styling values */
 .search-engine-optimization,
 .online-reputation-management,
@@ -138,7 +139,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* stlying properties for the footer class as well as the h2 elements in the html */
 .footer {
     padding: 30px;
     clear: both;
