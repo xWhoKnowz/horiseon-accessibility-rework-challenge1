@@ -26,4 +26,4 @@ Horiseon Website: [https://xwhoknowz.github.io/horiseon-accessibility-rework-cha
 
 ## Website Sample
 
-![Horiseon website sample image](./horiseon-accessibility-rework-challenge1/assets\images\01-html-css-git-homework-demo.png)
+![Horiseon website sample image](/assets/images/01-html-css-git-homework-demo.png)
