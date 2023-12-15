@@ -1,13 +1,14 @@
+/* universal selector; affects styling of whole page, interact with caution */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* below is the stylinf properties for the body element in the html and it sets background color for the webpage UI */
 body {
     background-color: #d9dcd6;
 }
-
+/* below are the header styling properties */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +24,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/** Below is the code that controls font styling and positioning for the nav elements; changed div to nav to reflect the update to the html */
+
+/* below are the styling properties for the navigation and list elements as well as the header class */
+/* * changed div to nav element selector to reflect the update to the html */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,13 +34,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/** Below is the code that keeps the nav list elements inline and unbulleted; consolidated the list style tpye into this section bc it did not need to be on its own  */
+
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+/* below are styling properties for the link and paragraph elements */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -46,7 +50,8 @@ a {
 p {
     font-size: 16px;
 }
-/** This section contains our hero image and corresponding positioning properties */
+
+/* below are our hero image and corresponding styling properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,8 +60,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* below are the styling properties for the float-right, float-left, content, and benefits classes */
 /** consolidated the 2 classes below because they share the same styling values */
-.float-left, .float-right {
+.float-left,
+.float-right {
     float: left;
     margin-right: 25px;
 }
@@ -77,26 +84,38 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* below are the styling properties for the benefit-lead, benefit-brand, and benefit-cost classes */
+/* this section of the css also adds styling to the h3 and img elements in the html */
 /** Consolidated css coding for the 3 below classes since they share the same styling values */
-.benefit-lead, .benefit-brand,.benefit-cost {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* below are stlying properties for the search-engine-optimization, online-reputation-management, and */
 /** Consolidated css coding for the 3 below classes since they share the same styling values */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -104,12 +123,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
     max-height: 200px;
 }
+
 /** Consolidated css coding for the 3 below classes since they share the same styling values / elements */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
